@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "personal-assistant-project"
+version = "0.1.0"
+description = "my personal cli assistant that saves contact's with their names phone numbers and birthdays(optional), can list all contacts and if there are any birthdays in the next 7 days"
+authors = ["payfree"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
